@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+  application:
+    name: user-consumer
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/dataeditorrolemanager?serverTimezone=UTC
+    username: root
+    password:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+
+server:
+  port: 8097
